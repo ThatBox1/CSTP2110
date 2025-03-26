@@ -43,3 +43,49 @@ The application should allow the users to: <br>
 - Performance/Reliability: The system should not crash when multiple people access it<br>
 - Scalability: Will be using AWS FREE tier services. It should be enough for this project<br>
 
+<h3><em>2.3.3 Technical Requirements</em></h3>
+- Will be built using AWS services<br>
+- Lambda for functionality<br>
+- SNS For notfication<br>
+- DynamoDB for database<br>
+- API Gateway for API calling<br>
+
+<h3><em>2.3.4 Security Requirements</em></h3>
+Authentication: API will use IAM for secure access control 
+
+<h3><em>2.3.5 Estimates</em></h3>
+
+| #  | Description | Hrs. Est. |
+| ------------- | ------------- |------------- |
+| 1 |  AWS Services Setup  | 5 | 
+| 2 |  API & Lambda | 8 | 
+| 3 |  SNS  | 3 | 
+| 4 |  DynamoDB  | 5 | 
+| 5 |  Testing / Debugging  | 5 | 
+| Total |    | 26 | 
+
+
+<h1>Section 4 - Data Dictionary</h1>
+
+<h2>Reminders</h2>
+
+| Field  | Notes | Type |
+| ------------- | ------------- |------------- |
+| userId | User Identifier  | String | 
+| reminderId | Reminder Identifier  | String | 
+| message | Reminder Description  | String | 
+| ReminderTime | Time of Reminder  | String | 
+| status | Status of Reminder | String | 
+
+
+
+
+
+
+
+
+
+
+
+
+
