@@ -34,7 +34,7 @@ The application include four AWS services:<br>
 <h2>2.3 Requirements</h2>
 <h3><em>2.3.1 Functional Requirements</em></h3>
 The application should allow the users to: <br>
-- Users should be able to Create, Delete, Edit reminder<br>
+- Users should be able to Create, Read, Update, Delete reminder<br>
 - Choose reminder due date to send reminder<br>
 - Provide email to send a notification to<br>
 - Receive notification for a reminder<br>
